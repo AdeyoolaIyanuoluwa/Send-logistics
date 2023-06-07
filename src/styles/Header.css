@@ -1,0 +1,77 @@
+.background{
+    background-color: #5a62e5;
+    padding-left: 150px;
+    font-family: "Montserrat," sans-serif;
+}
+.img1{
+    width: 100%;
+    position: static;
+    min-width: 802px;
+    padding-top: 90px;
+    /* margin-bottom: 50vh !important; */
+}
+.text1{
+    font-size: 38px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: white;
+    padding-right: 89px;
+     padding-top: 130px;
+}
+button{
+    background-color: #323e55;
+}
+.imag{
+    width: 100%;
+    max-width: 320px;
+    z-index: 999;
+    position: absolute;
+    left: 65%;
+    top: auto;
+    right: auto;
+    bottom:4%;
+}
+.rect{
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 0%;
+    bottom: -32px;
+    z-index: 10;
+    min-width: 102vw;
+    width: 100vw;
+    height: 180px;
+    background-color: #fff;
+}
+.sales:hover{
+    background-color: white;
+    color: black !important;
+}
+
+@media screen and (min-width: 200px) and (max-width:868px) {
+    .background{
+        padding-left: 50px;
+    }
+    .text1{
+            padding-right: 100px;
+             padding-top: 60px;
+    }
+    .img1{
+        width: 50%;
+        min-width: 433px;
+        padding-top: 60px;
+    }
+    .imag{
+        max-width: 240px;
+        left: 35%;
+        bottom:-24%;
+    }
+    .rect{
+        bottom: -89px;
+       
+    }
+    .text2{
+        padding-right: 85px;
+    }
+}

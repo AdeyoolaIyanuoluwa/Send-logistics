@@ -1,0 +1,29 @@
+.mainbox2{
+    padding-top: 100px;
+    padding-right: 80px;
+    padding-left: 150px;
+    /* padding-bottom: 90px; */
+    font-family: "Montserrat," sans-serif;
+    /* background-color: #f7f7f8; */
+}
+.heading{
+    line-height: 19.2px;
+    letter-spacing: normal;
+    font-weight: bold;
+    color:  #465065;
+}
+.textt{
+    color: #656BFF;
+    font-weight: 600;
+    line-height: 21.6px;
+    font-size: 18px;
+}
+.color{
+    color: #656BFF;
+}
+
+@media screen and (min-width: 200px) and (max-width:868px) {
+    .mainbox2{
+        padding-left: 50px;
+    }
+}

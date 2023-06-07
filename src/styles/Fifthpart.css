@@ -1,0 +1,32 @@
+.mainbox1{
+        position: relative;
+        background-color: #6b84ef;
+        /* width: 100%; */
+}
+.imgs{
+    width: 10%;
+}
+.tex{
+    padding-top: 100px;
+    padding-right: 80px;
+    padding-left: 150px;
+    /* padding-bottom: 90px; */
+    font-family: "Montserrat," sans-serif;
+    color: white;
+    background-color: #6b84ef;
+}
+p{
+    text-align: justify;
+}
+.btn{
+    background-color: #1c2942;
+}
+
+@media screen and (min-width: 200px) and (max-width:868px) {
+    .tex{
+        padding-left: 50px;
+    }
+    .imgs{
+        display: none;
+    }
+}

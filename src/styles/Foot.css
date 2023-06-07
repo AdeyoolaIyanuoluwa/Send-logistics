@@ -1,0 +1,28 @@
+.logoImg1{
+    height: 20px;
+    margin-left: 140px;
+}
+.nav-bgg{
+    background-color: #1c2942;
+    width: 100%;
+}
+.col{
+    background-color: #5a62e5 !important;
+}
+.hover:hover{
+    color: blue;
+}
+.ul1{
+    list-style-type: none;
+    font-family: "Montserrat," sans-serif;
+}
+
+@media screen and (min-width: 200px) and (max-width:868px) {
+    .logoImg1{
+        margin-left: 140px;
+    }
+    .ul1{
+        margin-left: 9vh !important;
+        text-align: center;
+    }
+}
