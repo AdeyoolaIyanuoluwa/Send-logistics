@@ -19,10 +19,13 @@
 
 @media screen and (min-width: 200px) and (max-width:868px) {
     .logoImg1{
-        margin-left: 140px;
+        margin-left: 150px;
     }
     .ul1{
-        margin-left: 9vh !important;
+        margin-left: 10vh !important;
         text-align: center;
+    }
+    .fle{
+        margin-left: 20px;
     }
 }

@@ -1,5 +1,5 @@
 .mainbox1{
-        position: relative;
+        /* position: relative; */
         background-color: #6b84ef;
         /* width: 100%; */
 }
@@ -28,5 +28,8 @@ p{
     }
     .imgs{
         display: none;
+    }
+    .mainbox1{
+        width: 77.3vh;
     }
 }

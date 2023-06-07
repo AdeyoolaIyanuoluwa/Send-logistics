@@ -5,7 +5,7 @@ import "../styles/Foot.css"
 const Foot = () => {
   return (
     <div>
-        <nav class="navbar navbar-expand-lg nav-bgg pe-5">
+        <nav class="navbar navbar-expand-lg nav-bgg pe-5 p-4">
                 <div class="container-fluid ">
                     <Link class="navbar-brand "><img className='logoImg1 ' src={logo} alt="" /></Link>
 
@@ -23,7 +23,7 @@ const Foot = () => {
                         <li>
                             <Link className="nav-link hover m-2 me-4 font-size">Contact</Link>
                         </li>
-                        <div className='d-flex'>
+                        <div className='d-flex fle'>
                             <li>
                                 <button className=" nav-link btn hove text-white border border-white me-2 bg-none rounded-pill p-2 ps-4 pe-4">Track</button>
                             </li>

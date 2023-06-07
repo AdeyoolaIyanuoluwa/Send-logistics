@@ -4,6 +4,7 @@
     padding-left: 150px;
     font-family: "Montserrat, "sans-serif;
     background-color: #f7f7f8;
+    display: block;
 }
 .img{
     width: 260px;
@@ -29,11 +30,16 @@
 .left{
     margin-top: 5vh;
 }
+.smallscreen{
+    display: none;
+}
+.pic{
+    display: none;
+}
 
 @media screen and (min-width: 200px) and (max-width:868px) {
     .mainbox{
-        padding-top: 200px;
-        padding-left: 50px;
+        display: none;
     }
     .tex1{
         padding-right: 140px;
@@ -42,24 +48,27 @@
         color: #1c2942;
     }
     .images1{
-        width: 40px;
+        width: 140px;
     }
     .images{
-        width: 40px;
+        width: 140px;
     }
     .img{
-        width: 40px;
+        width: 140px;
     }
-    /* .display{
-        display: flex;
-    } */
-    /* .side{
-        margin-top: 30px;
+    .smallscreen{
+        padding-top: 200px;
+        padding-left: 50px;
+        display: block;
     }
-    .middle{
-        margin-top: 30px;
+    .pic{
+        display: block;
     }
-    .left{
-        margin-top: 5vh;
-    } */
+    .firstline{
+        padding-right: 100px;
+        text-align: unset;
+    }
+    .secondline{
+        padding-right: 90px;
+    }
 }

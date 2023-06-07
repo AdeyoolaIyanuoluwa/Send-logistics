@@ -29,7 +29,7 @@ button{
     left: 65%;
     top: auto;
     right: auto;
-    bottom:4%;
+    bottom: 4%;
 }
 .rect{
     clip-path: polygon(100% 0, 0% 100%, 100% 100%);
@@ -65,10 +65,10 @@ button{
     .imag{
         max-width: 240px;
         left: 35%;
-        bottom:-24%;
+        bottom: -22%;
     }
     .rect{
-        bottom: -89px;
+        bottom: -85px;
        
     }
     .text2{

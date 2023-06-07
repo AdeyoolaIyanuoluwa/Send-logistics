@@ -41,6 +41,7 @@
     background-color: white !important;
     color: black !important;
     border-color: #fff;
+   
 }
 nav{
     padding-right: 50px;
@@ -52,7 +53,10 @@ nav{
 }
 .nav-link:hover{
     color: rgb(32, 30, 30);
-    font-weight: 500;
+    /* font-weight: 500; */
+}
+.navbar-toggler-icon{
+    background-image: url("../images/ham.png");
 }
 
 
